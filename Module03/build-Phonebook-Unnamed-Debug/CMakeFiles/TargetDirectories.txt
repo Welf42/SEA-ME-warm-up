@@ -1,0 +1,4 @@
+/home/sevo/Desktop/SEA-ME-warm-up/Module03/build-Phonebook-Unnamed-Debug/CMakeFiles/Phonebook.dir
+/home/sevo/Desktop/SEA-ME-warm-up/Module03/build-Phonebook-Unnamed-Debug/CMakeFiles/edit_cache.dir
+/home/sevo/Desktop/SEA-ME-warm-up/Module03/build-Phonebook-Unnamed-Debug/CMakeFiles/rebuild_cache.dir
+/home/sevo/Desktop/SEA-ME-warm-up/Module03/build-Phonebook-Unnamed-Debug/CMakeFiles/Phonebook_autogen.dir

@@ -1,0 +1,23 @@
+{
+	"BUILD_DIR" : "/home/sevo/Desktop/SEA-ME-warm-up/Module03/build-Phonebook-Unnamed-Debug/Phonebook_autogen",
+	"CMAKE_BINARY_DIR" : "/home/sevo/Desktop/SEA-ME-warm-up/Module03/build-Phonebook-Unnamed-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/sevo/Desktop/SEA-ME-warm-up/Module03/build-Phonebook-Unnamed-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/sevo/Desktop/SEA-ME-warm-up/Module03/Phonebook",
+	"CMAKE_SOURCE_DIR" : "/home/sevo/Desktop/SEA-ME-warm-up/Module03/Phonebook",
+	"INCLUDE_DIR" : "/home/sevo/Desktop/SEA-ME-warm-up/Module03/build-Phonebook-Unnamed-Debug/Phonebook_autogen/include",
+	"INPUTS" : 
+	[
+		"/home/sevo/Desktop/SEA-ME-warm-up/Module03/Phonebook/img/star.png",
+		"/home/sevo/Desktop/SEA-ME-warm-up/Module03/Phonebook/img/seame.png"
+	],
+	"LOCK_FILE" : "/home/sevo/Desktop/SEA-ME-warm-up/Module03/build-Phonebook-Unnamed-Debug/CMakeFiles/Phonebook_autogen.dir/AutoRcc_res_phonebook_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "res_phonebook" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_res_phonebook.cpp",
+	"RCC_EXECUTABLE" : "/usr/lib/qt6/libexec/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/sevo/Desktop/SEA-ME-warm-up/Module03/build-Phonebook-Unnamed-Debug/CMakeFiles/Phonebook_autogen.dir/AutoRcc_res_phonebook_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/home/sevo/Desktop/SEA-ME-warm-up/Module03/Phonebook/res_phonebook.qrc",
+	"VERBOSITY" : 0
+}

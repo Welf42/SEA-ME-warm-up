@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>img/seame.png</file>
+        <file>img/star.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,55 @@
+1. **QMainWindow**:
+   - Provides the main application window with a menu bar, dock windows, toolbars, and a status bar.
+   - Serves as the base class for applications that have a main window with a standard GUI layout.
+
+2. **QListView**:
+   - Provides a list view that displays items from a model.
+   - Allows users to select one or more items from the list.
+
+3. **QTextBrowser**:
+   - Provides a rich text browser with support for hypertext links.
+   - Displays formatted text, such as bold, italic, and underlined text, as well as images and tables.
+
+4. **QStandardItemModel**:
+   - Provides a generic model for storing hierarchical data.
+   - Allows you to store and manipulate data in a tree-like structure.
+
+5. **QDialog**:
+   - Provides a base class for dialog windows.
+   - Allows you to create custom dialog boxes for user interaction.
+
+6. **QLineEdit**:
+   - Provides a single-line text editor.
+   - Allows users to enter and edit a single line of plain text.
+
+7. **QInputDialog**:
+   - Provides a simple dialog to get a single value from the user.
+   - Supports getting a string, integer, or floating-point value.
+
+8. **QMessageBox**:
+   - Provides a modal dialog for informing the user or for asking the user a question and receiving an answer.
+   - Supports different types of message boxes, such as information, warning, and critical messages.
+
+9. **QIcon**:
+   - Provides an icon with different styles and sizes.
+   - Allows you to set icons for buttons, menu items, and other GUI elements.
+
+10. **QVBoxLayout**:
+    - Arranges child widgets vertically.
+    - Provides a simple way to create vertical layouts for your GUI elements.
+
+11. **QFormLayout**:
+    - Provides a way to arrange widgets in a two-column form layout.
+    - Typically used for creating forms with labels and input fields.
+
+12. **QPushButton**:
+    - Provides a command button.
+    - Allows users to trigger actions by clicking the button.
+
+13. **QRegularExpression**:
+    - Provides pattern matching using regular expressions.
+    - Allows you to validate and manipulate text based on predefined patterns.
+
+14. **QDialogButtonBox**:
+    - Provides a set of buttons in a dialog.
+    - Typically includes standard buttons like "OK", "Cancel", "Apply", and "Close".

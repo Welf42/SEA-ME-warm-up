@@ -1,0 +1,130 @@
+# Phonebook Application Documentation
+
+## 1. Introduction
+
+The Phonebook Application is a Qt-based desktop application that allows users to manage their contacts. It provides functionality for adding, removing, bookmarking, and filtering contacts, as well as viewing contact details.
+
+## 2. Class Structure
+
+### 2.1 Phonebook Class
+
+The main class that handles the application's core functionality.
+
+#### Key Members:
+- `contactModel`: QStandardItemModel for storing and displaying contacts
+- `allContacts`: QList<QStandardItem*> for maintaining all contacts
+
+#### Key Methods:
+- `addContact()`: Adds a new contact to the phonebook
+- `updateContactList()`: Refreshes the displayed contact list
+- `displayContactDetails()`: Shows details of a selected contact
+- `updateBookmarkStatus()`: Toggles bookmark status of a contact
+- `findItemInAllContacts()`: Locates a contact in the allContacts list
+- `isValidName()`: Validates input for contact names
+- `isValidPhoneNumber()`: Validates input for phone numbers
+- `isDuplicatePhoneNumber()`: Checks for duplicate phone numbers
+
+### 2.2 AddContactDialog Class
+
+A dialog class for adding new contacts.
+
+#### Key Members:
+- `nameEdit`: QLineEdit for entering contact name
+- `nicknameEdit`: QLineEdit for entering contact nickname
+- `phoneNumberEdit`: QLineEdit for entering phone number
+
+## 3. User Interface
+
+The application's main window consists of:
+- A list view displaying contacts (`listView_contact`)
+- Text browsers for showing contact details (`textBrowser_name`, `textBrowser_nickname`, `textBrowser_phonenumber`)
+- Buttons for various actions (Add, Remove, Bookmark, Details, All Contacts, Bookmarks)
+- A line edit for filtering contacts (`lineEdit_filter`)
+
+## 4. Key Features
+
+### 4.1 Adding Contacts
+- Users can add new contacts via the "Add" button
+- A dialog appears for entering contact details
+- Input validation ensures:
+  - Names contain only alphabetic characters
+  - Phone numbers contain only digits
+  - No duplicate phone numbers are allowed
+
+### 4.2 Removing Contacts
+- Users can remove contacts via the "Remove" button
+- A confirmation dialog appears before deletion
+
+### 4.3 Bookmarking Contacts
+- Users can bookmark contacts via the "Bookmark" button
+- Bookmarked contacts are displayed with a star icon
+
+### 4.4 Filtering Contacts
+- Users can filter contacts by typing in the filter line edit
+- Filtering is performed in real-time as the user types
+
+### 4.5 Viewing Contact Details
+- Selecting a contact in the list view displays its details in the text browsers
+
+### 4.6 Viewing All Contacts or Bookmarks
+- "All Contacts" button shows all contacts
+- "Bookmarks" button shows only bookmarked contacts
+
+## 5. Data Storage
+
+Contacts are stored in memory using a QStandardItemModel and a QList<QStandardItem*>. Each contact is represented by a QStandardItem with the following data:
+- Display role: Contact name
+- UserRole: Nickname
+- UserRole + 1: Phone number
+- UserRole + 2: Bookmark status (boolean)
+
+## 6. Input Validation
+
+### 6.1 Name Validation
+- Names must contain only alphabetic characters and spaces
+- Implemented in `isValidName()` method
+
+### 6.2 Phone Number Validation
+- Phone numbers must contain only digits
+- Implemented in `isValidPhoneNumber()` method
+
+### 6.3 Duplicate Check
+- Phone numbers must be unique across all contacts
+- Implemented in `isDuplicatePhoneNumber()` method
+
+## 7. Error Handling
+
+The application provides user feedback through QMessageBox warnings for:
+- Invalid name input
+- Invalid phone number input
+- Duplicate phone number entries
+
+## 8. Sample Data
+
+The application loads sample contacts on startup for demonstration purposes.
+
+## 9. Future Improvements
+
+Potential areas for enhancement include:
+- Persistent storage (e.g., database or file storage)
+- Contact editing functionality
+- Advanced search capabilities
+- Contact grouping or categorization
+- Import/export functionality
+
+## 10. Dependencies
+
+- Qt 5.x or later
+- C++11 or later
+
+## 11. Building and Running
+
+To build and run the application:
+1. Ensure Qt and a compatible C++ compiler are installed
+2. Open the project in Qt Creator
+3. Configure the project for your system
+4. Build and run the application
+
+## 12. Conclusion
+
+This Phonebook Application provides a user-friendly interface for managing contacts with features like bookmarking and filtering. Its modular design allows for easy expansion and maintenance.
