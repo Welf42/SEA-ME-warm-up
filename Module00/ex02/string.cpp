@@ -1,13 +1,5 @@
 // Module 00 Exercise 00
 // Basics of handling strings
-// Commands:
-	// std::cout << str << std::endl
-	// str += argv[j]
-	// str.length()
-	// std::islower(str[i])
-	// std::isupper(str[i])
-	// std::toupper(str[i])
-	// std::tolower(str[i])
 
 #include <iostream>
 #include <string>
