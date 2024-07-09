@@ -405,8 +405,6 @@ imageLabel->setPixmap(QPixmap(":/images/myimage.png"));
 
 <!--    /////////////////////////////////////////////////////////////// -->
 
-Certainly! I'll provide detailed explanations for each of the Models and Data components in collapsible sections:
-
 <details>
 <summary><strong>QStandardItemModel</strong></summary>
 
@@ -895,7 +893,8 @@ QString reversedName = name.reversed();
 </details>
 
 <details>
-="QList">
+<summary><strong>QList</strong></summary>
+
 ## Overview
 QList is a template class that provides a list data structure. It stores a collection of items and supports various operations for adding, removing, and accessing elements.
 
