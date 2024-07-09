@@ -1,9 +1,11 @@
-// compile: g++ *.cpp
-// classes are declared in .hpp and initialized / defined in .cpp
+#include <iostream>
+#include "PrintHeader.hpp"
 #include "Car.hpp"
 
 int main()
 {
+    printHeader("img/truck_header.txt");
+
     Car myCar;  //create instance (object) from class Car
     std::cout << "Creating a default Car object." << std::endl;
     myCar.drive();

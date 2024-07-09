@@ -1,5 +1,9 @@
 # Car Class Hierarchy Documentation
 
+## Compiling and File Strucutre
+ - Compiling: `g++ *.cpp`
+ - Classes are declared in .hpp and initialized and defined in .cpp
+
 ## Libraries Used
 
 1. `<iostream>`: For input/output operations.
