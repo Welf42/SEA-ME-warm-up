@@ -1,4 +1,4 @@
-### Qt Library Docs
+# Qt Library Docs
 
 ## Core Qt Classes
 
@@ -652,7 +652,7 @@ window->show();
 
 <!--    /////////////////////////////////////////////////////////////// -->
 
-#### Dialogs and Messaging
+## Dialogs and Messaging
 
 <details>
 <summary><strong>QInputDialog</strong></summary>
