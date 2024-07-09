@@ -650,6 +650,10 @@ window->show();
 
 </details>
 
+<!--    /////////////////////////////////////////////////////////////// -->
+
+#### Dialogs and Messaging
+
 <details>
 <summary><strong>QInputDialog</strong></summary>
 
@@ -963,4 +967,3 @@ int lastNumber = numbers.last();
 
 
 
-<!--    /////////////////////////////////////////////////////////////// -->
