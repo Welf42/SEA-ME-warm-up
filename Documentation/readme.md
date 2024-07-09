@@ -13,6 +13,7 @@ Getting started with C++, Qt and Git/Github!
 <summary><h2>Qt</h2></summary>
 
 ### Libraries
+- [Detailed Documentation to Qt classes](qt.md)
 
 #### Core Qt Classes
 - **QMainWindow**: 
@@ -241,6 +242,9 @@ int main() {
     return 0;
 }
 ```
+
+### Links
+- [Other file](qt.md)
 
 
 ### Resources
