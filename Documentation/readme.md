@@ -1,3 +1,5 @@
+Here's the revised document with a table of contents, links, and collapsible sections in Markdown format:
+
 # Documentation on the Warmup
 Getting started with C++, Qt and Git/Github!
 
@@ -247,7 +249,3 @@ Here are some helpful links for GitHub documentation on writing and formatting:
 - [GitHub Flavored Markdown Spec](https://github.github.com/gfm/)
 - [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
 
-<<<<<<< HEAD
-</details>
-=======
->>>>>>> 3ef336d (updated documentation)
