@@ -84,7 +84,7 @@ Getting started with C++, Qt and Git/Github!
   - Idea: A dialog for showing messages and getting simple responses.
   - Use case: Show error messages, warnings, or ask yes/no questions.
 
-#### Other Qt Classes
+#### Data structures
 - **QIcon**: 
   - Idea: Represents a graphical icon.
   - Use case: Add icons to buttons, menu items, or window titles.

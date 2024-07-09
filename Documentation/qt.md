@@ -1,3 +1,7 @@
+### Qt Library Docs
+
+## Core Qt Classes
+
 <details>
 <summary><strong>QMainWindow</strong></summary>
 
@@ -196,6 +200,8 @@ public slots:
 </details>
 
 <!--    /////////////////////////////////////////////////////////////// -->
+
+## GUI Components
 
 <details>
 <summary><strong>QListView</strong></summary>
@@ -404,6 +410,7 @@ imageLabel->setPixmap(QPixmap(":/images/myimage.png"));
 </details>
 
 <!--    /////////////////////////////////////////////////////////////// -->
+## Models and Data
 
 <details>
 <summary><strong>QStandardItemModel</strong></summary>
@@ -542,6 +549,7 @@ void MyClass::handleIndex(const QModelIndex &index) {
 
 
 <!--    /////////////////////////////////////////////////////////////// -->
+## Layouts
 
 <details>
 <summary><strong>QVBoxLayout</strong></summary>
@@ -727,6 +735,7 @@ if (result == QMessageBox::Yes) {
 </details>
 
 <!--    /////////////////////////////////////////////////////////////// -->
+## Data structures
 
 <details>
 <summary><strong>QIcon</strong></summary>
