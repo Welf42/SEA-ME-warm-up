@@ -1,5 +1,3 @@
-Here's the revised document with a table of contents, links, and collapsible sections in Markdown format:
-
 # Documentation on the Warmup
 Getting started with C++, Qt and Git/Github!
 
