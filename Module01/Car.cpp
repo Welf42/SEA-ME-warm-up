@@ -13,14 +13,14 @@ Car::Car(const std::string& make, const std::string& model, int year)
     std::cout << "Car class constructor called." << std::endl;
 }
 
-// Copy constructor (OCF)
+// Car: Copy constructor (OCF)
 Car::Car(const Car& other)
     : make(other.make), model(other.model), year(other.year)
 {
     std::cout << "Car class copy constructor called." << std::endl;
 }
 
-// Copy assignment operator (OCF) 
+// Car: Copy assignment operator (OCF) 
 Car& Car::operator=(const Car& other)
 {
     if (this != &other) {
@@ -32,7 +32,7 @@ Car& Car::operator=(const Car& other)
     return *this;
 }
 
-// Destructor (OCF)
+// Car: Destructor (OCF)
 Car::~Car()
 {
     std::cout << "Car class destructor called." << std::endl;

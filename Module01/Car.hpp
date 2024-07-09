@@ -1,5 +1,3 @@
-// You define virtual, overwrite, etc. only here
-
 #ifndef CAR_HPP
 # define CAR_HPP
 
@@ -10,12 +8,12 @@
 // Car class 
 class Car
 {
-protected:		//todo:
+protected:
     std::string make;
     std::string model;
-    int year;
+    int         year;
 
-public:			//todo:
+public:
     Car();								                                // Default constructor (OCF)
     Car(const std::string& make, const std::string& model, int year);	// Initalization constructor
     Car(const Car& other);						                        // Copy constructor (OCF)
@@ -26,8 +24,6 @@ public:			//todo:
     virtual void accelerate() const;            //todo: syntax: virtual void <function> const
     virtual void brake() const;
     virtual void steer() const;
-    // virtual void computerVision() const;
-    // virtual void infotainment() const;
 };
 
 // class SportsCar derived from Class Car
@@ -43,24 +39,24 @@ public:
     SportsCar& operator=(const SportsCar& other);                                               // Copy assignment operator (OCF) 
     ~SportsCar();                                                                               // Destructor (OCF)
 
-    void drive() const override;                //todo: synta: void <function> const overridex
+    void drive() const override;                //todo: syntax: void <function> const override
 };
 
 // class SoftwareDefinedVehicle derived from Class Car
 class SoftwareDefinedVehicle : public Car
 {
 private:
-    std::string                 softwareVersion;    //
-    std::vector<std::string>    sensors;            // todo: syntax: vector of strings
-    std::vector<std::string>    actuators;          
+    std::string                 softwareVersion;
+    std::vector<std::string>    sensors;
+    std::vector<std::string>    actuators;
 
 public:
-    SoftwareDefinedVehicle();                       // Default constructor (OCF)
-    // SoftwareDefinedVehicle(const std::string& make, const std::string& model, int year, 
-    //                         const std::string &softwareVersion, const std::vector<std::string> &sensors, const std::vector<std::string> &actuators);// Initalization constructor
-    // SoftwareDefinedVehicle(const SoftwareDefinedVehicle& other);                                                          // Copy constructor (OCF)
-    // SoftwareDefinedVehicle& operator=(const SoftwareDefinedVehicle& other);                                               // Copy assignment operator (OCF) 
-    // ~SoftwareDefinedVehicle();                                                                               // Destructor (OCF)
+    SoftwareDefinedVehicle();                                                                                                                           // Default constructor (OCF)
+    SoftwareDefinedVehicle(const std::string& make, const std::string& model, int year, 
+                            const std::string &softwareVersion, const std::vector<std::string> &sensors, const std::vector<std::string> &actuators);    // Initalization constructor
+    SoftwareDefinedVehicle(const SoftwareDefinedVehicle& other);                                                                                        // Copy constructor (OCF)
+    SoftwareDefinedVehicle& operator=(const SoftwareDefinedVehicle& other);                                                                             // Copy assignment operator (OCF) 
+    ~SoftwareDefinedVehicle();                                                                                                                          // Destructor (OCF)
 
     void updateSoftware(const std::string& newVersion);
     void addSensor(const std::string& sensor);
