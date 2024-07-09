@@ -1,6 +1,3 @@
-Certainly! Here's everything in one Markdown file that you can copy directly:
-
-```markdown
 # C++ Smart Pointers and OOP Concepts Documentation
 
 ## Table of Contents
@@ -272,10 +269,3 @@ int main() {
     
     return 0;
 }
-```
-
-This example demonstrates the use of smart pointers, inheritance, polymorphism, and other C++ concepts in modeling a car and its parts.
-
-```
-
-This Markdown file provides a comprehensive documentation of C++ smart pointers, OOP concepts, and related syntax, along with a practical example of modeling a car. You can copy this entire content and use it as a reference or educational material.
