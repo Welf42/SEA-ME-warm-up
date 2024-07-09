@@ -140,7 +140,3 @@ The game flow is as follows:
 4. For Software Defined Vehicles, there's an option for autonomous driving.
 5. The game continues until the car reaches the end of the track.
 
-Throughout the game, object-oriented principles like inheritance and polymorphism are utilized to manage different car types and behaviors.
-```
-
-This documentation provides an overview of the game's structure, key C++ concepts used, and detailed explanations of the main functions and gameplay. It highlights the use of templates, smart pointers, dynamic casting, and random number generation, which are crucial to the game's implementation.
