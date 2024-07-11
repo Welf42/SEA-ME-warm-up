@@ -106,11 +106,14 @@ Getting started with C++, Qt and Git/Github!
   - Use case: Store and manipulate collections of items or data.
 
 ### Tutorials
-<!-- List of recommended Qt tutorials for beginners -->
+- [Qt Tutorials For Beginners Playlist](https://www.youtube.com/watch?v=EkjaiDsiM-Q&list=PLS1QulWo1RIZiBcTr5urECberTITj7gjA)
+- [Qt with Ketan](https://www.youtube.com/@qtwithketan)
+
 
 ### Resources
 - [Qt Widgets](https://doc.qt.io/qt-6/qtwidgets-index.html)
 - [Qt Widgets Modules](https://doc.qt.io/qt-6/qtwidgets-module.html)
+- [Qt Model View](https://doc.qt.io/qt-6/model-view-programming.html)
 
 </details>
 
